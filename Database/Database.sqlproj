@@ -70,4 +70,7 @@
     <None Include="Scripts\settings\TurnOffCache.sql" />
     <None Include="Scripts\seed\SeedIfEmpty.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>
