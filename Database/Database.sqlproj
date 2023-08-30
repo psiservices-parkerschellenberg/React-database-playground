@@ -74,6 +74,7 @@
   <ItemGroup>
     <None Include="Scripts\settings\TurnOffCache.sql" />
     <None Include="Scripts\seed\SeedIfEmpty.sql" />
+    <None Include="Database.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
