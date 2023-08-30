@@ -59,8 +59,13 @@
     <Folder Include="dbo" />
     <Folder Include="dbo\Stored Procedures" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\settings" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Playground.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\settings\TurnOffCache.sql" />
   </ItemGroup>
 </Project>
