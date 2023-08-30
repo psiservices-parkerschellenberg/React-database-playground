@@ -66,6 +66,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Playground.sql" />
     <Build Include="dbo\Stored Procedures\AddRow.sql" />
+    <Build Include="dbo\Stored Procedures\DeleteRowById.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\settings\TurnOffCache.sql" />
