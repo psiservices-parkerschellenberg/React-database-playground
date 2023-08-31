@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/main.css';
 import App from './App';
-import './index.scss';
 //import './assets/scss/main.scss';
 //import "react-datepicker/dist/react-datepicker.css";
 //import { BrowserRouter } from 'react-router-dom';
