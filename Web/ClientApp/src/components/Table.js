@@ -19,11 +19,30 @@ const Table = () => {
     }
 
     return (
-        <ul>
-            {data.data.map((todo) => (
-                <li key={todo.id}>{todo.firstName}</li>
-            ))}
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Middle Name</th>
+                    <th>Last Name</th>
+                    <th>Exam Date</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {data.data.map((row) => (
+                    <tr key={row.id}>
+                        <td>{row.id}</td>
+                        <td>{row.firstName}</td>
+                        <td>{row.middleName || '-'}</td>
+                        <td>{row.lastName}</td>
+                        <td>{row.examDate}</td>
+                        <td>{row.price}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
     );
 };
 
