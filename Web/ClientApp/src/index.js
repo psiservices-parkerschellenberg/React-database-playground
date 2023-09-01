@@ -1,8 +1,7 @@
+import './scss/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/main.css';
 import App from './App';
 //import './assets/scss/main.scss';
 //import "react-datepicker/dist/react-datepicker.css";
