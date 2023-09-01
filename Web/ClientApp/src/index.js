@@ -1,19 +1,16 @@
-import './scss/main.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-import App from './App';
-//import './assets/scss/main.scss';
+import './scss/main.scss';
 //import "react-datepicker/dist/react-datepicker.css";
 //import { BrowserRouter } from 'react-router-dom';
-
-//import "@popperjs/core";
-//import "bootstrap";
 
 //import { HelmetProvider } from 'react-helmet-async';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+
+import App from './App';
+//import Authorizer from "./Authorizer";
 
 
 const queryClient = new QueryClient({
