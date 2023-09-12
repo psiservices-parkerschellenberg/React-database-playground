@@ -1,0 +1,35 @@
+﻿@Web_HostAddress = https://localhost:7232
+
+GET {{Web_HostAddress}}/api/rows
+
+###
+
+GET {{Web_HostAddress}}/api/rows/4
+
+###
+
+PUT {{Web_HostAddress}}/api/rows/1
+Content-Type: application/json
+
+{
+    "firstName": "Jason",
+    "middleName": "James",
+    "lastName": "Man",
+    "examDate": "1992-09-12T00:00:00",
+    "price": 8.99
+}
+
+###
+
+POST {{Web_HostAddress}}/api/rows
+Content-Type: application/json
+
+{
+    "firstName": "New",
+    "middleName": "Ish",
+    "lastName": "Guy",
+    "examDate": "1959-01-15T00:00:00",
+    "price": 29.99
+}
+
+###
