@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import HomePage from './HomePage';
 import QueryTesting from './QueryTesting';
 import { Route, Routes } from 'react-router';
+import axios from 'axios';
 
 const App = () => {
 
